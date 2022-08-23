@@ -24,20 +24,20 @@ const Sidebar = () => {
                 <p className="title">MAIN</p>
                 <li><DashboardIcon className="icon" /><span>Dashboard</span></li>
                 <p className="title">LISTS</p>
-                <li><span><PersonOutlineOutlinedIcon className="icon" />Users</span></li>
-                <li><span><FitnessCenterOutlinedIcon className="icon" />Products</span></li>
-                <li><span><ShoppingCartOutlinedIcon className="icon" />Orders</span></li>
-                <li><span><LocalShippingRoundedIcon className="icon" />Delivery</span></li>
+                <li><PersonOutlineOutlinedIcon className="icon" /><span>Users</span></li>
+                <li><FitnessCenterOutlinedIcon className="icon" /><span>Products</span></li>
+                <li><ShoppingCartOutlinedIcon className="icon" /><span>Orders</span></li>
+                <li><LocalShippingRoundedIcon className="icon" /><span>Delivery</span></li>
                 <p className="title">USEFUL</p>
-                <li><span><InsertChartOutlinedRoundedIcon className="icon" />Stats</span></li>
-                <li><span><NotificationsNoneOutlinedIcon className="icon" />Notifications</span></li>
+                <li><InsertChartOutlinedRoundedIcon className="icon" /><span>Stats</span></li>
+                <li><NotificationsNoneOutlinedIcon className="icon" /><span>Notifications</span></li>
                 <p className="title">SERVICE</p>
-                <li><span><MonitorHeartOutlinedIcon className="icon" />System health</span></li>
-                <li><span><PsychologyOutlinedIcon className="icon" />Logs</span></li>
-                <li><span><SettingsOutlinedIcon className="icon" />Settings</span></li>
+                <li><MonitorHeartOutlinedIcon className="icon" /><span>System health</span></li>
+                <li><PsychologyOutlinedIcon className="icon" /><span>Logs</span></li>
+                <li><SettingsOutlinedIcon className="icon" /><span>Settings</span></li>
                 <p className="title">USER</p>
-                <li><span><AccountCircleOutlinedIcon className="icon" />Profile</span></li>
-                <li><span><LogoutOutlinedIcon className="icon" />Logout</span></li>
+                <li><AccountCircleOutlinedIcon className="icon" /><span>Profile</span></li>
+                <li><LogoutOutlinedIcon className="icon" /><span>Logout</span></li>
             </ul>
         </div>
         <div className="bottom">
