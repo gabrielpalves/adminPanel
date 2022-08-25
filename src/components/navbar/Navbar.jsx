@@ -40,7 +40,7 @@ const Navbar = () => {
           </div>
           <div className="item">
             <img
-              src="https://pbs.twimg.com/profile_images/1446567380029743104/wbbuViPK_400x400.jpg"
+              src="https://images.pexels.com/photos/13008653/pexels-photo-13008653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt=""
               className="avatar"
             />
