@@ -8,10 +8,20 @@ import { productInputs, userInputs } from "./formSource";
 import "./style/dark.scss";
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
+import React from "react";
 
 function App() {
 
   const {darkMode} = useContext(DarkModeContext);
+
+  const [data, setData] = React.useState(null);
+  React.useEffect(() => {
+    fetch("/api")
+      .then((res) => res.json())
+      .then((data) => setData(data.message));
+  }, []);
+
+  console.log(data);
 
   return (
     <div className={darkMode ? "app dark" : "app"}>
